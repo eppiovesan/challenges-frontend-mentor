@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background: rgb(243, 229, 215);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.principal {
+    background: white;
+    border-radius: 20px;
+    padding: 5%;
+
+}
+
+#img1 {
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-size: 18;
+    font-family: "Young Serif", serif;
+    font-style: unset;
+    font-weight: 400;
+
+}
+
+.descricaoReceita {
+    font-size: 14px;
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 400;
+    color: rgb(76, 72, 44)
+}
+
+.tempoPreparo {
+    border-radius: 7px;
+    background: rgb(251, 245, 247);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 20px;
+
+
+}
+
+.tituloTempoPreparo {
+    color: rgb(130, 40, 62);
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.listaTempoPreparo {
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 400;
+    color: rgb(76, 72, 44);
+}
+
+h2 {
+    color: rgb(125, 63, 51);
+    font-family: "Young Serif", serif;
+    font-style: unset;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.listaIngredientes {
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 400;
+    color: rgb(76, 72, 44);
+}
+
+.listaInstrucoes {
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 400;
+    color: rgb(76, 72, 44)
+}
+
+.descricaoNutricao {
+    font-size: 14px;
+    font-family: "Outfit", serif;
+    font-style: unset;
+    font-weight: 450;
+    color: rgb(76, 72, 44)
+}
+
+.item {
+    font-size: 14px;
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-weight: 450;
+    color: rgb(76, 72, 44);
+    margin-left: 10px;
+}
+
+.valorItem {
+    color: rgb(125, 63, 51);
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.tabelaNutricao {
+    width: 100%;
+
+    /*utilizada para unir as bordas e evitar espaçamento indesejado entre as linhas*/
+    border-collapse: collapse;
+}
+
+/*linha abaixo de cada linha da tabela*/
+.tableLine {
+    border-bottom: 0.1px solid rgb(207, 207, 194);
+}
+
+/*espaçamento entre as linhas da tabela*/
+td {
+    padding: 10px;
+}
+
+/*espaçamento entre os itens da lista*/
+li {
+    padding: 5px;
+}
